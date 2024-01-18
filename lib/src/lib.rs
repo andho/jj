@@ -43,6 +43,7 @@ pub mod files;
 pub mod fileset;
 mod fileset_parser;
 pub mod fmt_util;
+pub mod footer;
 pub mod fsmonitor;
 pub mod git;
 pub mod git_backend;
