@@ -1700,6 +1700,7 @@ dependencies = [
  "pest",
  "pest_derive",
  "pollster",
+ "rand",
  "regex",
  "rpassword",
  "scm-record",
