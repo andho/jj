@@ -238,6 +238,12 @@ parent.
       <td><code>git stash</code></td>
     </tr>
     <tr>
+      <td>Move to a change / Switch branch</td>
+      <td><code>jj edit change-id/branch</code></td>
+      <td><code>git checkout commit-id</code> (may need to stash or commit
+        first)</td>
+    </tr>
+    <tr>
       <td>Start working on a new change based on the &lt;main&gt; branch</td>
       <td><code>jj new main</code></td>
       <td><code>git switch -c topic main</code> or
